@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC := arm-linux-gcc $/;"	m
+LD	Makefile	/^LD := arm-linux-ld$/;"	m
+NAND_BLOCK_MASK_LP	test.c	18;"	d	file:
+NAND_SECTOR_SIZE_LP	test.c	17;"	d	file:
+NFADDR	test.c	10;"	d	file:
+NFCMD	test.c	9;"	d	file:
+NFCONF	test.c	7;"	d	file:
+NFCONT	test.c	8;"	d	file:
+NFDATA	test.c	11;"	d	file:
+NFSTAT	test.c	12;"	d	file:
+OBJCOPY	Makefile	/^OBJCOPY:= arm-linux-objcopy$/;"	m
+RdNF2SDRAM	test.c	/^void RdNF2SDRAM(void)			\/\/将nand flash的代码复制到sdram中去$/;"	f
+TACLS	test.c	21;"	d	file:
+TWRPH0	test.c	22;"	d	file:
+TWRPH1	test.c	23;"	d	file:
+check_busy	test.c	47;"	d	file:
+disable	test.c	45;"	d	file:
+enable	test.c	44;"	d	file:
+enable_rb	test.c	46;"	d	file:
+erase_block	test.c	/^void erase_block(unsigned int block)$/;"	f
+eraseb1	test.c	31;"	d	file:
+eraseb2	test.c	32;"	d	file:
+main	test.c	/^int main()$/;"	f
+nand_init	test.c	/^void nand_init(void)$/;"	f
+nand_reset	test.c	/^static void nand_reset(void)$/;"	f	file:
+nf_readpage	test.c	/^void nf_readpage(unsigned int block,unsigned int page,unsigned char *dstaddr)$/;"	f
+nf_writepage	test.c	/^void nf_writepage(unsigned int block,unsigned int page,unsigned char *buffer)$/;"	f
+ramread	test.c	/^unsigned char ramread(unsigned int block,unsigned int page,unsigned int add)$/;"	f
+ramwrite	test.c	/^void ramwrite(unsigned int block,unsigned int page,unsigned int add,unsigned char dat)$/;"	f
+randomreadp1	test.c	34;"	d	file:
+randomreadp2	test.c	35;"	d	file:
+randomwrite	test.c	33;"	d	file:
+read_byte	test.c	43;"	d	file:
+read_id	test.c	/^void read_id(unsigned char *buf)$/;"	f
+readid	test.c	28;"	d	file:
+readp1	test.c	26;"	d	file:
+readp2	test.c	27;"	d	file:
+readstatus	test.c	36;"	d	file:
+reset	test.c	37;"	d	file:
+send_addr	test.c	41;"	d	file:
+send_cmd	test.c	40;"	d	file:
+send_data	test.c	42;"	d	file:
+show	test.c	/^void (*show)(char * args,...) = 0x33f91908;$/;"	v
+waitrb	test.c	48;"	d	file:
+writep1	test.c	29;"	d	file:
+writep2	test.c	30;"	d	file:

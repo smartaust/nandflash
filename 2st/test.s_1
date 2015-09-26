@@ -1,0 +1,24 @@
+	mov ip,sp
+	sub sp,sp,#12
+	str lr,[sp]
+	str ip,[sp,#4]
+	str fp,[sp,#8]
+	sub fp,ip,#12
+
+	ldr r0,=str
+	mov lr,pc
+	ldr pc,show
+
+	ldr lr ,[fp,#0]
+	ldr sp ,[fp,#4]
+	ldr fp ,[fp,#8]
+	mov pc ,lr
+show:
+	
+	.word 0x33f91908
+
+str:
+	.asciz "hello world.\n"
+
+
+
