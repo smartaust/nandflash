@@ -7,3 +7,4 @@
 #!/bin/bash
 test
 mv *.bin /tftpboot
+#tony had add feature
